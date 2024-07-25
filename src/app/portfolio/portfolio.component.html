@@ -21,9 +21,7 @@
   <div class="modal" *ngIf="selectedImage">
     <div class="modal-content">
       <span class="close" (click)="closeModal()">&times;</span>
-      <img [src]="selectedImage?.src" [alt]="selectedImage?.alt" class="w-100">
+      <img [src]="selectedImage.src" [alt]="selectedImage.alt" class="w-100">
     </div>
   </div>
-  
-  <app-contact></app-contact>
   

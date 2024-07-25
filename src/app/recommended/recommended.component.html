@@ -1,0 +1,18 @@
+
+<div class="container ">
+    <div class="row">
+       @for (r of recommendeditem; track $index) {
+
+        <div class="col-md-4 text-center">
+            <div class="shadow-lg bg-dark text-white m-5">
+                <img [src]="r.pImage" class="w-100">
+                <h3>{{r.pName}}</h3>
+                <span>Price : {{r.pPrice}}</span>
+
+
+            </div>
+        </div>
+
+       }
+    </div>
+</div>

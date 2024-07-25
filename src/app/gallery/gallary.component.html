@@ -1,0 +1,35 @@
+<div class="d-flex flex-column align-items-center justify-content-center">
+    <h1 class="text-center text-secondary-emphasis fw-bold pt-5">GALLERY COMPONENT</h1>
+    <div class="line position-relative">
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+      </div>
+    </div>
+  </div>
+<div class="container ">
+    <div class="row">
+       @for (p of gallery; track $index) {
+
+        <div class="col-md-4 text-center">
+            <div class="shadow-lg bg-dark text-white m-5">
+                <img [src]="p.pImage" class="w-100">
+                <h3>{{p.pName}}</h3>
+                <span>Price : {{p.pPrice}}</span>
+
+
+            </div>
+        </div>
+
+       }
+    </div>
+</div>
+
+<h2 #view class="text-center" > * Recommended Item's! * </h2>
+
+
+@defer (on interaction(view)) {
+    <app-recommended></app-recommended>
+}
+@loading (minimum 1500ms) {
+    <h3 class="text-center">Loading .......... </h3>
+}
