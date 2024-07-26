@@ -17,15 +17,15 @@ interface product{
 export class GallaryComponent {
 
   gallery: product[] =[
-    { pName: "Realme-c53" ,pPrice : 6000 ,pImage:'../../assets/images/gallery/1.jpg'},
-    { pName: "Galaxy a05s" ,pPrice : 7000 ,pImage:'../../assets/images/gallery/2.jpg'},
-    { pName: "Redmi A3" ,pPrice : 5000 ,pImage:'../../assets/images/gallery/3.jpg'},
-    { pName: "Samsung" ,pPrice : 8000 ,pImage:'../../assets/images/gallery/4.jpg'},
-    { pName: "Redmi" ,pPrice : 4000 ,pImage:'../../assets/images/gallery/5.jpg'},
-    { pName: "Oppo A38" ,pPrice : 5000 ,pImage:'../../assets/images/gallery/6.jpg'},
-    { pName: "Realme" ,pPrice : 6000 ,pImage:'../../assets/images/gallery/7.jpg'},
-    { pName: "Realme" ,pPrice : 6500 ,pImage:'../../assets/images/gallery/8.jpg'},
-    { pName: "Iphone" ,pPrice : 20000 ,pImage:'../../assets/images/gallery/9.jpg'},
+    { pName: "Realme-c53" ,pPrice : 6000 ,pImage:'../assets/images/gallery/1.jpg'},
+    { pName: "Galaxy a05s" ,pPrice : 7000 ,pImage:'../assets/images/gallery/2.jpg'},
+    { pName: "Redmi A3" ,pPrice : 5000 ,pImage:'../assets/images/gallery/3.jpg'},
+    { pName: "Samsung" ,pPrice : 8000 ,pImage:'../assets/images/gallery/4.jpg'},
+    { pName: "Redmi" ,pPrice : 4000 ,pImage:'../assets/images/gallery/5.jpg'},
+    { pName: "Oppo A38" ,pPrice : 5000 ,pImage:'../assets/images/gallery/6.jpg'},
+    { pName: "Realme" ,pPrice : 6000 ,pImage:'../assets/images/gallery/7.jpg'},
+    { pName: "Realme" ,pPrice : 6500 ,pImage:'../assets/images/gallery/8.jpg'},
+    { pName: "Iphone" ,pPrice : 20000 ,pImage:'../assets/images/gallery/9.jpg'},
   ]
 
 }
